@@ -29,3 +29,6 @@ Once you have gotten set up with the necessary files and models from the other r
 Make sure that all the files and models are in the same root folder. For example, my folder is D:/Neural Style Python and I have every other necessary folder/file in there. I find it helpful to have separate folders for content, styles, and output, but this is not required.
 
 ## Running It
+This is what it should look like when run sucessfully:
+
+![Image of Interface](https://github.com/spot92/Python_Style_Transfer_GUI/blob/master/interface.jpg)
