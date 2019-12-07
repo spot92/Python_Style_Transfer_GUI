@@ -5,12 +5,15 @@ Took the neural style transfer for python and made it way more user friendly.
 This was made with Python 3.7.4 on a Windows 10 machine.
 
 I take the style transfer code from this repo and turn it into a more user friendly experience:
+
 https://github.com/spot92/neural-style-pt
 
 This is just a fork of the following with some minor changes to the image sizing:
+
 https://github.com/ProGamerGov/neural-style-pt
 
 And this is a Python implementation of the Lua code here:
+
 https://github.com/jcjohnson/neural-style
 
 ## Requirements
