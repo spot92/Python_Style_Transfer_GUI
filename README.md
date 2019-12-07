@@ -29,6 +29,10 @@ Once you have gotten set up with the necessary files and models from the other r
 Make sure that all the files and models are in the same root folder. For example, my folder is D:/Neural Style Python and I have every other necessary folder/file in there. I find it helpful to have separate folders for content, styles, and output, but this is not required.
 
 ## Running It
+Running it should be as easy as double clicking the file. That is all I do. Fill in the fields as desired (I set up defaults on most of them). If you would like to change the defaults, find that line in the code at the top and change the default value. Please note that I have set the default of the output file to be output/ since I save mine to the output folder. You can also change the size of the interface by editing the default_size=(1280, 720) line.
+
 This is what it should look like when run sucessfully:
 
 ![Image of Interface](https://github.com/spot92/Python_Style_Transfer_GUI/blob/master/interface.jpg)
+
+I think this covers it, please let me know if there are any questions.
