@@ -71,7 +71,7 @@ def main():
     Cw = content_image.size(3) #literally no idea why its (3) and not [1]
     #################################################################
     
-    style_image_input = params.style_image.split(',')
+    style_image_input = params.style_image.split(';')
     style_image_list, ext = [], [".jpg", ".jpeg", ".png", ".tiff"]
     for image in style_image_input:
         if os.path.isdir(image):
