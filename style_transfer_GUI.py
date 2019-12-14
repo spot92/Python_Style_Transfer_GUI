@@ -16,7 +16,7 @@ def gpu():
     parser = GooeyParser(description = "Style Transfer GUI")
     # Basic options
     parser.add_argument("content_image", help="Desired content image.", widget = "FileChooser")
-    parser.add_argument("style_image", help="Desired style image. If multiple are chosen, make sure they are separated by a , and not a ;", widget = "MultiFileChooser")
+    parser.add_argument("style_image", help="Desired style image.", widget = "MultiFileChooser")
     parser.add_argument("image_size", help="Maximum height/width of generated image.", type=int, default=384)
     parser.add_argument("output_image", help ="The name you wish to save to, make sure to inlude the .jpg extension.", default='output/')
     parser.add_argument("-cudnn_autotune", help ="Do you want to use cudnn_autotune?", action='store_true', default = True)
